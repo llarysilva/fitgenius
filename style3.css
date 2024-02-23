@@ -1,0 +1,194 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    background-color: #0083db;
+    width: 100%;
+    
+    
+    
+}
+
+
+body {
+    background-color: rgba(240, 146, 207, 0.089);
+}
+
+header {
+    position: fixed;
+}
+
+#check {
+    display: none;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    
+}
+
+.logo a {
+    color: white;
+    font-weight: bold;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo a:hover {
+    background-color: transparent;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white ;
+    font-size: 17px;
+    border-radius: 3px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover {
+    background-color: #3498db;
+    transition: all .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+main {
+    background-color: rgb(255, 255, 255);
+    width: 100% ;
+    margin: auto;
+}
+div.slogan img {
+    width: 100%;
+    
+}
+.conteudo {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    
+ 
+}
+.agru {
+    background-color: #00060e;
+}
+.somos {
+    margin: 50px;
+    align-items: center;
+    
+    
+}
+.somos p {
+    font-size: 12px;
+  
+    width: 200px;
+    color: rgba(255, 255, 255, 0.46);
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.somos h1 {
+    font-size: 20px;
+    color: #ffffff ;
+}
+
+.desc {
+    padding: 40px;
+}
+
+.desc p {
+    width: 500px;
+    font-size:100%;
+}
+.desc h1 {
+    font-family: "Anta", sans-serif;
+    font-size: 36px;
+}
+.descimg img {
+    width:100%;
+    align-items: ;
+}
+.treino {
+    display: flex;
+    width: 100%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: rgb(133, 64, 0);
+    padding: 12px;
+    text-align: center;
+    
+}
+footer a {
+    color: #c4bbb4;
+    transition: all ease .5s;
+}
+
+footer a:hover {
+    background-color: transparent;
+    color: #264cc7;
+}
