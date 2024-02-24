@@ -2,6 +2,11 @@
     .checkbtn {
         display: block;
     }
+    .treino {
+        display: block;
+        width: 100%;
+       
+    }
     
     
     label.logo {
@@ -58,22 +63,44 @@
         
      
     }
-  
-@media (max-width:1000px) {
+ }
 
+ @media (max-width:1500px) {
 
-    .imagem:hover {
-
-        transform: scale(1);
+    .descimg img {
+        width:100%;
+        height:80%;
+        
     }
-
-    .cate-flex {
+    .op {
+        width: 90%;
+        margin: auto;
+        display: flex;
         overflow: scroll;
         scroll-behavior: auto;
+       
+    }
+ }
+
+@media  (max-width: 500px) {
+
+
+    .treino {
+        display: block;
+        width: 100%;
+        text-align: justify;
+       
+    }
+    .descimg img {
+        width:100%;
+        height:100%;
+        
     }
     .desc p {
-        width: 200px;
+        width: 100%;
         font-size:100%;
     }
 }
- }
+  
+
+ 
